@@ -20,7 +20,7 @@ export async function signInWithCredentials(
       await signIn('credentials', user);
   
       return { success: true, message: 'Signed in successfully' };
-    } catch (error) {
+    } catch {
         // throw error;
     //   if (isRedirectError(error)) {
     //     throw error;
