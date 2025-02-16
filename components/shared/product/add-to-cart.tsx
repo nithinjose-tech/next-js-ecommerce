@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { ToastAction } from "@/components/ui/toast";
 import { useToast } from "@/hooks/use-toast";
-import { round2 } from "@/lib/utils";
 import { Cart, CartItem,} from "@/types";
 import { Plus,Minus,Loader } from "lucide-react";
 import { useRouter } from "next/navigation";
