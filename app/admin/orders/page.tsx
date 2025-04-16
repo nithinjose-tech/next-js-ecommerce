@@ -1,4 +1,3 @@
-import { auth } from '@/auth';
 import { getAllOrders,deleteOrder } from '@/lib/actions/order.actions';
 import { Metadata } from 'next';
 import {
