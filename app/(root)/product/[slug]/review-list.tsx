@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Calendar, Check, User } from "lucide-react";
+import { Calendar, User } from "lucide-react";
 import { formatDateTime } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import Link from "next/link";
